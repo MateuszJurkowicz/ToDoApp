@@ -29,3 +29,5 @@ k
 ;app/src/main/java/com/example/todoapp/TaskListFragment.java,8\4\84f437380cfe82253c3e52c46b4141fb68959109
 f
 6app/src/main/java/com/example/todoapp/TaskStorage.java,8\a\8a6bfefa166d7fa68b7b8ffe5b794a5635b160ea
+c
+3app/src/main/java/com/example/todoapp/Category.java,9\1\91b47ec4c31cf86c8b5855ee90b8db13fdd9fbfa
