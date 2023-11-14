@@ -7,9 +7,13 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Spinner;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -28,6 +32,7 @@ public class TaskFragment extends Fragment {
     private EditText nameField;
     private EditText dateField;
     private CheckBox doneCheckBox;
+    private Spinner categoryspinner;
     public static final String ARG_TASK_ID = "task_id";
     public static TaskFragment newInstance(UUID taskId) {
         Bundle bundle = new Bundle();
@@ -53,7 +58,20 @@ public class TaskFragment extends Fragment {
         nameField = view.findViewById(R.id.task_name);
         dateField = view.findViewById(R.id.task_date);
         doneCheckBox = view.findViewById(R.id.task_done);
+        categoryspinner = view.findViewById(R.id.task_category);
+        categoryspinner.setAdapter(new ArrayAdapter<>(this.getContext(), android.R.layout.simple_spinner_item, Category.values()));
+        categoryspinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                task.setCategory(Category.values()[position]);
+            }
 
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+        categoryspinner.setSelection(task.getCategory().ordinal());
         nameField.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -95,7 +113,5 @@ public class TaskFragment extends Fragment {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy", locale);
         dateField.setText(dateFormat.format(date));
     }
-
-
 
 }

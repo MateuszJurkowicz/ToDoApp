@@ -31,3 +31,7 @@ f
 6app/src/main/java/com/example/todoapp/TaskStorage.java,8\a\8a6bfefa166d7fa68b7b8ffe5b794a5635b160ea
 c
 3app/src/main/java/com/example/todoapp/Category.java,9\1\91b47ec4c31cf86c8b5855ee90b8db13fdd9fbfa
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0

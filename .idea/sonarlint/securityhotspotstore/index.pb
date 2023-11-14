@@ -31,3 +31,7 @@ g
 7app/src/main/java/com/example/todoapp/TaskFragment.java,9\8\98e8654edd491b542a8514f048791aa8aca39c66
 c
 3app/src/main/java/com/example/todoapp/Category.java,9\1\91b47ec4c31cf86c8b5855ee90b8db13fdd9fbfa
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0

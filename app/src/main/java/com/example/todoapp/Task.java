@@ -21,6 +21,7 @@ public class Task {
     {
         id = UUID.randomUUID();
         date = new Date();
+        category = Category.HOME;
     }
     public void setName(String s)
     {

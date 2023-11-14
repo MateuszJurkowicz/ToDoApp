@@ -11,16 +11,13 @@
         style="?android:listSeparatorTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/name_label" />
+        android:text="@string/name_label"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <EditText
         android:id="@+id/task_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:text="@string/name_hint" />
+        android:text="@string/name_hint"
+        style="@style/EditTextStyle" />
 
     <TextView
         style="?android:listSeparatorTextViewStyle"
@@ -44,4 +41,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/done_label" />
+
+    <Spinner
+        android:id="@+id/task_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

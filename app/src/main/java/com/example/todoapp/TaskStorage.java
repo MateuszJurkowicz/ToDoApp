@@ -38,4 +38,8 @@ public class TaskStorage {
     {
         return tasks;
     }
+    public void addTask(Task task)
+    {
+        tasks.add(task);
+    }
 }

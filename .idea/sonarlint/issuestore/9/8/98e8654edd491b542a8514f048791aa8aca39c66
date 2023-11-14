@@ -1,13 +1,11 @@
 
-{
-java:S1450"YRemove the "dateButton" field and declare it as a local variable in the relevant methods.(ˆŸªùùÿÿÿÿ8‘Ú—ì¶1
 }
-java:S1450"[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸıÿÿÿÿ8’Ú—ì¶1
+java:S1450"[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸıÿÿÿÿ8îª¨È»1
 z
-java:S1450"XRemove the "nameField" field and declare it as a local variable in the relevant methods.(âê¸şÿÿÿÿ8’Ú—ì¶1
+java:S1450"XRemove the "nameField" field and declare it as a local variable in the relevant methods.(âê¸şÿÿÿÿ8ïª¨È»1
 
-java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8¡Ú—ì¶1
+java:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8üª¨È»1
 
-java:S1186>"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê8¡Ú—ì¶1
+java:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê8üª¨È»1
 I
-java:S1602F",Remove useless curly braces around statement(’£˜¦8ºíÔ »1
+java:S1602W",Remove useless curly braces around statement(’£˜¦8«¨È»1
